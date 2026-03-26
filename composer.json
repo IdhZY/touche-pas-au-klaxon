@@ -1,0 +1,22 @@
+{
+    "name": "cef/touche-pas-au-klaxon",
+    "description": "Application de covoiturage inter-sites",
+    "type": "project",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "phpstan/phpstan": "^1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "app/Models/",
+            "app/Controllers/"
+        ]
+    },
+    "scripts": {
+        "test": "phpunit",
+        "analyse": "phpstan analyse"
+    }
+}
