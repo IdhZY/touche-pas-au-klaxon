@@ -1,0 +1,165 @@
+:root {
+  --bs-primary: #0074c7;
+  --bs-secondary: #384050;
+  --bs-success: #82b864;
+  --bs-danger: #cd2c2e;
+  --bs-info: #00497c;
+  --bs-light: #f1f8fc;
+  --bs-dark: #384050;
+  --bs-body-bg: #f1f8fc;
+  --bs-body-color: #384050;
+  --bs-link-color: #00497c;
+}
+
+/* ============================================================
+   CORPS DE PAGE
+   ============================================================ */
+body {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+/* ============================================================
+   NAVBAR
+   ============================================================ */
+.navbar-palette {
+  background-color: var(--bs-primary);
+}
+
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+/* ============================================================
+   BOUTONS
+   ============================================================ */
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--bs-info);
+  border-color: var(--bs-info);
+}
+
+.btn-success {
+  background-color: var(--bs-success);
+  border-color: var(--bs-success);
+}
+
+.btn-danger {
+  background-color: var(--bs-danger);
+  border-color: var(--bs-danger);
+}
+
+.btn-nav-admin {
+  background-color: var(--bs-info);
+  border-color: var(--bs-info);
+  color: #ffffff;
+}
+
+.btn-nav-admin:hover,
+.btn-nav-admin:focus {
+  background-color: #003d68;
+  border-color: #003d68;
+  color: #ffffff;
+}
+
+/* ============================================================
+   LIENS
+   ============================================================ */
+a {
+  color: var(--bs-link-color);
+}
+
+a:hover {
+  color: var(--bs-primary);
+}
+
+/* ============================================================
+   TABLEAUX
+   ============================================================ */
+.table thead.thead-palette th {
+  background-color: var(--bs-info);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-color: #003d68;
+}
+
+.table tbody td {
+  vertical-align: middle;
+}
+
+/* ============================================================
+   ICÔNES ACTIONS
+   ============================================================ */
+.bi-eye,
+.bi-pencil-square,
+.bi-trash {
+  font-size: 1rem;
+  cursor: pointer;
+  color: var(--bs-secondary);
+}
+
+.bi-eye:hover,
+.bi-pencil-square:hover,
+.bi-trash:hover {
+  opacity: 0.6;
+}
+
+/* ============================================================
+   CARDS
+   ============================================================ */
+.card {
+  border: 1px solid #d0dce6;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+/* ============================================================
+   ALERTES / FLASH MESSAGES
+   ============================================================ */
+.alert-success {
+  background-color: #e8f5e0;
+  border-color: var(--bs-success);
+  color: #3d6b22;
+}
+
+.alert-danger {
+  background-color: #fce8e8;
+  border-color: var(--bs-danger);
+  color: #8c1d1e;
+}
+
+/* ============================================================
+   BADGES
+   ============================================================ */
+.badge.bg-success {
+  background-color: var(--bs-success) !important;
+}
+
+.badge.bg-danger {
+  background-color: var(--bs-danger) !important;
+}
+
+/* ============================================================
+   MODALE
+   ============================================================ */
+.modal-footer .btn-secondary {
+  background-color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer-palette {
+  background-color: var(--bs-secondary);
+}
+
+footer {
+  font-size: 0.9rem;
+}
