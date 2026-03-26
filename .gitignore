@@ -1,0 +1,20 @@
+# Dependances
+/vendor/
+ 
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+ 
+# OS
+.DS_Store
+Thumbs.db
+ 
+# Environnement
+.env
+config/database.php
+ 
+# Cache
+*.cache
+EOF
